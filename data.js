@@ -1,6 +1,6 @@
 var student_data = [
     {
-        id:"1",
+        id: 1,
         name: "Aman",
         class : "10",
         phone_Number: "1234567890",
@@ -8,7 +8,7 @@ var student_data = [
 
     },
     {
-        id:"2",
+        id: 2,
         name: "Ayush",
         class : "10",
         phone_Number: "1234567890",
@@ -16,7 +16,7 @@ var student_data = [
 
     },
     {
-        id:"3",
+        id: 3,
         name: "Arya",
         class : "10",
         phone_Number: "1234567890",
