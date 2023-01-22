@@ -31,7 +31,7 @@ app.post('/data',(req,res)=>{
         phone_Number: phone_Number,
         address: address,
     })
-    res.status(201).json({ success: true,date : student_data})
+    res.status(201).json({ success: true,data : student_data})
 
 })
 
