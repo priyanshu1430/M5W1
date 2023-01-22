@@ -25,7 +25,7 @@ app.post('/data',(req,res)=>{
       .json({ success: false, msg: 'please provide name value' })
   }
     student_data.push({
-        id:(contact.length + 1 ).toString(),
+        id:(student_data.length + 1 ).toString(),
         name:name,
         class:clas,
         phone_Number: phone_Number,
