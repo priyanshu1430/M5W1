@@ -14,7 +14,7 @@ app.get('/api/data',(req,res)=>{
     res.status(200).json({ success: true, data: student_data })
 })
 
-app.post('/data',(req,res)=>{
+app.post('api/data',(req,res)=>{
    var name = req.body.name
    var clas = req.body.class
    var phone_Number = req.body.phone_Number
